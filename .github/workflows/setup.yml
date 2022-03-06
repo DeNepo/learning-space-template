@@ -1,0 +1,18 @@
+name: setup
+
+on: workflow_dispatch
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set Up the Learning Space
+        uses: lpmi-13/python-test-action@v0.0.5
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+        with:
+          path: ./.learning/materials.yml
