@@ -22,11 +22,14 @@ All you need to do is use this template to generate your own repository, and the
 
    ![actions tab](./assets/actions-tab.png)
 
-5. In the Workflows section, select "setup", and press the "run workflow" button, selecting the "main" branch to run the action
+5. In the Workflows section, select "setup", and press the "Run workflow" button, selecting the "main" branch to run the action
 
    ![running the workflow to set up the repo](./assets/run-the-action.png)
 
-6. The GitHub action will run and set up your project board, so you can view it to decide what to study first! Once you select the first activity, move the card to DOING column. When you're all finished, move it to DONE. When everything is in DONE, you've completed the learning space.
+6. You can see this new Project board by clicking on Projects, and then selecting the one that's got a "1" next to it (ie, not the Beta Projects that is currently also shown by default).
 
-   ![the generated learning board](./assets/your-learning-board.png)
+   ![the projects view](./assets/your-learning-board.png)
 
+7. The GitHub action will run and set up your project board, so you can view it to decide what to study first! You can click on the individual cards to see the full description. Once you select the first activity, move the card to DOING column. When you're all finished, move it to DONE. When everything is in DONE, you've completed the learning space.
+
+   ![the generated learning board](./assets/your-learning-board-columns.png)
