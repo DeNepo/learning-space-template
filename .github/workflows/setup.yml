@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set Up the Learning Space
-        uses: lpmi-13/python-test-action@v0.0.5
+        uses: lpmi-13/learning-space-single-setup@v1.0.0
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
