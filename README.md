@@ -1,8 +1,8 @@
 # Setup Instructions
 
-The motivation for this project is explained a bit in [this artile](https://micromaterialsblog.wordpress.com/2022/03/07/learning-spaces-automated-micromaterials-orchestration/).
+The motivation for this project is explained a bit in [this article](https://micromaterialsblog.wordpress.com/2022/03/07/learning-spaces-automated-micromaterials-orchestration/).
 
-This is a seed template to set up a learning space for a single user. It's currently set up to use an example configuratin for 4 micromaterials using git, but you could easily update it to point to any other materials you want.
+This is a seed template to set up a learning space for a single user. It's currently set up to use an example configuration for 4 micromaterials using git, but you could easily update it to point to any other materials you want.
 
 This particular set up demonstrates a very simple (and short in terms of time committment) learning space, but it could easily be extended for much more in-depth study of various things.
 
